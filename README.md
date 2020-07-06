@@ -15,6 +15,8 @@
 
 ## ❔ **Description**
 
+This application tracks a user's workouts.
+
 ## 💡 **Assignment Instructions**
 
 You have already been provided with the front end code in the `Develop` folder. 
