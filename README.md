@@ -1,6 +1,6 @@
 # Fitness-Tracker
 
-**to see this site live on heroku, click [here](https://natalie-fitness.herokuapp.com/)**
+**to see this site live on heroku, click [here](https://natalie-fitness.herokuapp.com/).**
 
 ## **Table of Contents**
 
