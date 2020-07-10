@@ -1,6 +1,12 @@
-const router = require("express").Router();
-const Workout = require("../models/workout.js");
+// require - ✓ (match html)
+// 'workout' not necessary
+const express = require('express');
+const router = express.Router();
 
+// require db 
+const db = require('../models')
+
+// 
 router.post("/api/workouts", (req, res) => {
   Workout.create({})
     .then(dbWorkout => {
@@ -11,6 +17,7 @@ router.post("/api/workouts", (req, res) => {
     });
 });
 
+// 
 router.put("/api/workouts/:id", ({ body, params }, res) => {
   Workout.findByIdAndUpdate(
     params.id,
@@ -26,6 +33,7 @@ router.put("/api/workouts/:id", ({ body, params }, res) => {
     });
 });
 
+// 
 router.get("/api/workouts", (req, res) => {
   Workout.find()
     .then(dbWorkouts => {
@@ -36,6 +44,7 @@ router.get("/api/workouts", (req, res) => {
     });
 });
 
+// 
 router.get("/api/workouts/range", (req, res) => {
   Workout.find({}).limit(7)
     .then(dbWorkouts => {
@@ -47,6 +56,7 @@ router.get("/api/workouts/range", (req, res) => {
     });
 });
 
+// 
 router.delete("/api/workouts", ({ body }, res) => {
   Workout.findByIdAndDelete(body.id)
     .then(() => {
@@ -57,4 +67,5 @@ router.delete("/api/workouts", ({ body }, res) => {
     });
 });
 
+// 
 module.exports = router;
