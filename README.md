@@ -1,7 +1,6 @@
 # Fitness-Tracker
 
-**to see this site live on heroku, click here**
-https://natalie-fitness.herokuapp.com/
+**to see this site live on heroku, click [here](https://natalie-fitness.herokuapp.com/)**
 
 ## **Table of Contents**
 
@@ -28,7 +27,7 @@ This assignment will require you to create Mongo database with a Mongoose schema
 
 ## 📌 **Assignment Requirements**
 
-[x] When the user loads the page, they should be given the option to create a new workout, or continue with their last workout.
+- [x] When the user loads the page, they should be given the option to create a new workout, or continue with their last workout.
 
 The user should be able to:
 
@@ -40,7 +39,7 @@ The user should be able to:
 
 ## 🔲 **Objective**
 
-[x] Create a functioning workout tracker.
+- [x] Create a functioning workout tracker.
 
 ## 🔑 **Usage**
 
