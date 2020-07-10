@@ -1,3 +1,4 @@
+// left this page alone / looks good - ✓
 async function initWorkout() {
   const lastWorkout = await API.getLastWorkout();
   console.log("Last workout:", lastWorkout);
