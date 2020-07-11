@@ -32,7 +32,7 @@ router.post("/api/workouts", ({ body }, res) => {
 // put - ✓
 // needed some code additions / adjustments for proper connection / functionality
 router.put("/api/workouts/:id", (req, res) => {
-  db.Workout.findByIdAndUpdate(
+  db.Workout.findOneAndUpdate(
     {_id: req.params.id},
     { $push: { exercises: body } },
     // "runValidators" will ensure new exercises meet our schema requirements
