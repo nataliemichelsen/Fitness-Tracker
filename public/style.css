@@ -148,6 +148,10 @@ form::after {
   display: none !important;
 }
 
+.exercise-body {
+  background-color: #f7b7d3;
+}
+
 .exercise .ui.card {
   width: 400px;
   max-width: 600px;
@@ -399,21 +403,12 @@ form > button {
 
 .workout .ui.card {
   padding-top: 25px;
-  background-color: slateblue;
   border-color: #333333;
 }
 
 .prev-workout {
   text-align: center;
   background-color: slateblue;
-}
-
-.add {
-  background-color: lavender;
-}
-
-.continue {
-
 }
 
 .prev-workout .buttons {
