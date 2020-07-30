@@ -6,7 +6,7 @@ const mongoose = require('mongoose');
 const server = express();
 
 // port = ✓
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3001;
 
 // mongoose connection - ✓
 mongoose.connect(
@@ -20,8 +20,8 @@ server.use(express.json());
 server.use(express.urlencoded({ extended: true }));
 
 // routes - ✓
-server.use(require('./routes/api-routes'));
-server.use(require('./routes/html-routes'));
+server.use(require('./routes/api'));
+server.use(require('./routes/view'));
 
 // listen - ✓
 server.listen(PORT, () => {

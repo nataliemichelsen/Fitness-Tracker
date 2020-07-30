@@ -1,4 +1,3 @@
-// left this page alone / looks good - ✓
 const API = {
   async getLastWorkout() {
     let res;
