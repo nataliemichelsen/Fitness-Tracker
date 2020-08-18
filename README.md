@@ -65,4 +65,4 @@ There are currently no tests for this app.
 
 ## **Video of Deployed Application**
 
-![Deployed Application](info/working_app.gif)
+![Deployed Application](media/working_app.gif.gif)
